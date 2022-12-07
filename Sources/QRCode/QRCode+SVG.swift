@@ -43,7 +43,7 @@ public extension QRCode {
 		var svg = ""
 
 		// SVG Header
-		svg += "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" height=\"\(dimension)\" width=\"\(dimension)\">\n"
+		svg += "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlnsXlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" height=\"\(dimension)\" width=\"\(dimension)\">\n"
 
 		var pathDefinitions: [String] = []
 
